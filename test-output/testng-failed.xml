@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Forms_Package.Forms_Test1">
+        <methods>
+          <include name="TC05_TestViewForm"/>
+          <include name="TC02_CreateNewForm"/>
+          <include name="TC06_TestSubmitForm"/>
+          <include name="TC03_TestSearchAndOpenForm"/>
+          <include name="TC04_AddNewTextQuestionToFormLayout" invocation-numbers="0 1"/>
+          <include name="tearDownDriver"/>
+          <include name="TC07_TestResponseSubmitted"/>
+          <include name="setUpDriver"/>
+          <include name="setUpReports"/>
+        </methods>
+      </class> <!-- Forms_Package.Forms_Test1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
